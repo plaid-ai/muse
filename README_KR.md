@@ -1,7 +1,3 @@
-네, 업데이트된 `README.md` 내용을 한국어로 번역해 드릴게요.
-
----
-
 # Muse 🔮 - 당신의 AI 기반 학습 동반자
 
 [![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
