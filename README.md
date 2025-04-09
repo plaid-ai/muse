@@ -7,13 +7,15 @@
 
 Tired of spending hours re-listening to lectures or deciphering messy notes? Muse aims to automate the tedious parts of note-taking, allowing you to focus on understanding and learning. Simply provide your lecture text (or audio in the future!), and Muse's AI engine will generate structured summaries, identify key points, and provide detailed breakdowns.
 
-## ✨ Vision
+## ✨ Vision: Structured "Vibe Coding" for Learning
 
-Our vision is to create an intelligent learning assistant that not only summarizes information but also inspires deeper understanding and critical thinking – acting as your personal academic "Muse". We are building this project with an **AI-first, human-oversight** approach, exploring new frontiers in AI-assisted software development itself.
+Our vision is to create an intelligent learning assistant that not only summarizes information but also inspires deeper understanding and critical thinking – acting as your personal academic "Muse".
+
+We are building this project with an **AI-first, human-oversight** approach. This embraces principles similar to **"vibe coding"** – where developers guide high-capability AI models like Gemini, Claude, GPT, DeepSeek to generate code and content rapidly. However, Muse emphasizes a **structured and responsible** approach: **human developers remain firmly in control, rigorously reviewing, testing, and *understanding* the AI-generated output before integration.** Our goal is to harness the speed of AI while ensuring quality, maintainability, and accountability, exploring the future of AI-assisted software development itself.
 
 We plan to offer:
 *   A robust **open-source version** (self-hostable via Docker).
-*   Potentially, a managed **cloud version** for ease of use and additional features (similar to the Dify model).
+*   Potentially, a managed **cloud version** for ease of use and additional features.
 
 ## 🚀 Key Features (Current & Planned)
 
@@ -32,7 +34,7 @@ We plan to offer:
 
 *   **Backend:** Python (FastAPI)
 *   **Frontend:** TBD (Likely React/Next.js or Vue/Nuxt.js)
-*   **AI Models:** Google Gemini 2.5 Pro, Anthropic Claude 3.7 Sonnet, OpenAI o3-mini-high (See [CONTRIBUTING.md](./CONTRIBUTING.md) for details)
+*   **AI Models:** **Google Gemini 2.5 Pro, Anthropic Claude 3.7 Sonnet, OpenAI o1, o3-mini-high, DeepSeek-R1 (See [CONTRIBUTING.md](./CONTRIBUTING.md) for mandatory usage details)
 *   **Deployment:** Docker, Docker Compose
 
 ## 🏁 Getting Started (Self-Hosting with Docker)
@@ -43,7 +45,7 @@ We plan to offer:
     cd muse
     ```
 2.  **Set up environment variables:**
-    *   You'll need API keys for the AI models used (Gemini, Claude, OpenAI). Create a `.env` file based on `.env.example` (to be added) and fill in your keys.
+    *   You'll need API keys for the required AI models (Gemini, Claude, OpenAI). Create a `.env` file based on `.env.example` (to be added) and fill in your keys.
     ```bash
     cp .env.example .env
     # Edit .env with your API keys
@@ -58,12 +60,12 @@ We plan to offer:
 
 ## 🤝 Contributing
 
-Muse thrives on community contributions! We have a unique AI-assisted development workflow. Please read our **[CONTRIBUTING.md](./CONTRIBUTING.md)** file carefully to understand how to contribute, our AI usage policies, and the PR process.
+Muse thrives on community contributions! We employ a unique AI-assisted development workflow inspired by **"vibe coding"** principles but grounded in **rigorous human oversight**. Please read our **[CONTRIBUTING.md](./CONTRIBUTING.md)** file carefully to understand our specific process, AI usage policies (including mandatory models), and the PR requirements (including prompt submission).
 
 **Key requirements for contributors:**
-*   Adherence to the AI-assisted development workflow.
-*   Usage of specified high-capability AI models (Gemini 2.5 Pro, Claude 3.7 Sonnet, OpenAI o3-mini-high).
-*   Inclusion of used prompts in Pull Requests.
+*   Adherence to the Muse AI-assisted development workflow.
+*   Usage of specified high-capability AI models: **Google Gemini 2.5 Pro, Anthropic Claude 3.7 Sonnet, OpenAI o1, o3-mini-high, DeepSeek-R1**.
+*   **Mandatory inclusion of used prompts** in Pull Requests for transparency and reproducibility.
 
 ## 📜 License
 
