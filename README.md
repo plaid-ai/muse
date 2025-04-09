@@ -34,7 +34,7 @@ We plan to offer:
 
 *   **Backend:** Python (FastAPI)
 *   **Frontend:** TBD (Likely React/Next.js or Vue/Nuxt.js)
-*   **AI Models:** **Google Gemini 2.5 Pro, Anthropic Claude 3.7 Sonnet, OpenAI o1, o3-mini-high, DeepSeek-R1 (See [CONTRIBUTING.md](./CONTRIBUTING.md) for mandatory usage details)
+*   **AI Models:** **Google Gemini 2.5 Pro, Anthropic Claude 3.7 Sonnet, OpenAI o1, o3-mini-high, DeepSeek-R1** (See [CONTRIBUTING.md](./CONTRIBUTING.md) for mandatory usage details)
 *   **Deployment:** Docker, Docker Compose
 
 ## 🏁 Getting Started (Self-Hosting with Docker)
