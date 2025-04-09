@@ -1,0 +1,22 @@
+**Muse Project License Modifications**
+
+Muse is licensed under the Apache License, Version 2.0 (the "License"), with the following overriding conditions specific to the Muse project:
+
+**1. Usage Restrictions:**
+
+   a. **Multi-Tenant Prohibition:** You may not use the Muse source code or compiled artifacts to provide a multi-tenant service (where a single instance serves multiple distinct users or organizations in isolated workspaces/accounts) without obtaining a separate commercial license from Plaid AI or its designated entity. Running Muse for internal use within a single organization or for personal use is permitted under the Apache License 2.0 terms.
+
+   b. **Branding Requirement:** When using or distributing the Muse frontend components (defined as the code residing in the `web/` directory of the source repository or the corresponding 'web' Docker image), you must not remove, obscure, or modify any Muse logos, trademarks, or copyright notices present in the user interface. This restriction does not apply to uses involving only the backend (`api/`) components or custom frontends not derived from the Muse `web/` directory code.
+
+**2. Contributor Agreement:**
+
+   By submitting contributions (including code, documentation, or other materials) to the Muse project, you agree to the following:
+
+   a. **License Flexibility:** You acknowledge that Plaid AI reserves the right to modify the licensing terms for the Muse project, including these modifications, in the future.
+   b. **Commercial Use of Contributions:** You grant Plaid AI a perpetual, worldwide, non-exclusive, no-charge, royalty-free, irrevocable license to use, reproduce, prepare derivative works of, publicly display, publicly perform, sublicense, and distribute your contributions and such derivative works for any purpose, including commercial purposes and in connection with any cloud services or other commercial offerings related to Muse.
+
+**Governing License:**
+
+All rights and obligations not explicitly addressed by these Muse Project License Modifications are governed by the standard terms and conditions of the Apache License, Version 2.0, the full text of which is included below.
+
+**Copyright 2025 Plaid AI**
