@@ -1,0 +1,80 @@
+name: Bug Report
+description: Create a report to help us improve Muse
+title: "[Bug]: "
+labels: ["bug"]
+assignees:
+  - ''
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to fill out this bug report! Please provide as much detail as possible.
+  - type: textarea
+    id: bug-description
+    attributes:
+      label: Describe the bug
+      description: A clear and concise description of what the bug is.
+      placeholder: Tell us what you see!
+    validations:
+      required: true
+  - type: textarea
+    id: reproduction-steps
+    attributes:
+      label: To Reproduce
+      description: Steps to reproduce the behavior. Please be specific!
+      placeholder: |
+        1. Go to '...'
+        2. Click on '....'
+        3. Scroll down to '....'
+        4. See error
+    validations:
+      required: true
+  - type: textarea
+    id: expected-behavior
+    attributes:
+      label: Expected behavior
+      description: A clear and concise description of what you expected to happen.
+    validations:
+      required: true
+  - type: textarea
+    id: actual-behavior
+    attributes:
+      label: Actual behavior
+      description: A clear and concise description of what actually happened.
+    validations:
+      required: true
+  - type: textarea
+    id: screenshots
+    attributes:
+      label: Screenshots (Optional)
+      description: If applicable, add screenshots to help explain your problem. You can drag and drop images here.
+    validations:
+      required: false
+  - type: textarea
+    id: environment
+    attributes:
+      label: Environment
+      description: Please complete the following information about your environment.
+      placeholder: |
+        - OS: [e.g. macOS Sonoma, Windows 11, Ubuntu 22.04]
+        - Browser (if applicable): [e.g. Chrome 125, Firefox 126]
+        - Muse Version (if applicable): [e.g. Docker image tag, Commit SHA]
+    validations:
+      required: true
+  - type: textarea
+    id: additional-context
+    attributes:
+      label: Additional context (Optional)
+      description: Add any other context about the problem here. Logs, specific lecture content that triggers the issue, etc.
+    validations:
+      required: false
+  - type: checkboxes
+    id: checklist
+    attributes:
+      label: Checklist
+      description: Before submitting, please ensure you've done the following.
+      options:
+        - label: I have searched the existing issues and confirmed this is not a duplicate.
+          required: true
+        - label: I have read the [CONTRIBUTING.md](https://github.com/plaid-ai/muse/blob/main/CONTRIBUTING.md) guide.
+          required: true
